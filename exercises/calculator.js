@@ -39,7 +39,7 @@ if (shape == "cuboid" || shape == "box" || shape_shortcut == 1) {
   height = await rl.question("height: ")
   volume = length * width * height
   output = `${length} × ${width} × ${height} = ${volume}`
-} else if (shape == "sphere" || shape == 2) {
+} else if (shape == "sphere" || shape_shortcut == 2) {
   diameter = await rl.question("diameter: ")
   radius = diameter / 2
   volume = 4 / 3 * pi * radius**3

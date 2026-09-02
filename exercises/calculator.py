@@ -37,7 +37,7 @@ if shape == "cuboid" or shape == "box" or shape_shortcut == 1:
     height = input("height: ")
     volume = length * width * height
     output = f"{length} × {width} × {height} = {volume}"
-elif shape == "sphere" or shape == 2:
+elif shape == "sphere" or shape_shortcut == 2:
     diameter = input("diameter: ")
     radius = diameter / 2
     volume = 4 / 3 * pi * radius**3
