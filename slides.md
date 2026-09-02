@@ -1,5 +1,5 @@
 ---
-theme: ../slidev-theme-rac-swd
+theme: slidev-theme-rac-swd
 comark: true
 transition: slide-left
 addons:
@@ -293,4 +293,3 @@ string_to_float = float("1")   # 1.0 <float>
 Python Software Foundation. (2026, August 25). _typing—Support for type hints_. Python Documentation. [https://docs.python.org/3/library/typing.html](https://docs.python.org/3/library/typing.html)
 
 The PHP Documentation Group. (n.d.). _PHP: Type declarations - Manual_. Retrieved August 26, 2026, from [https://www.php.net/manual/en/language.types.declarations.php](https://www.php.net/manual/en/language.types.declarations.php)
-
