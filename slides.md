@@ -268,7 +268,7 @@ boolean_example: bool = True
 ```python
 integer_to_string = str(1)     # "1" <str>
 integer_to_float = str(1.0)    # "1.0" <str>
-string_to_integer = int("1.0") # 1 <int>
+string_to_integer = int("1")   # 1 <int>
 string_to_float = float("1")   # 1.0 <float>
 ```
 
